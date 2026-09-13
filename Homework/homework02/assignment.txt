@@ -1,0 +1,95 @@
+1. What is a "computer system"?
+The levels of a modern computer needed for it to run. Higher levels are more user
+friendly but are dependent on the lower levels.
+
+2. What are some of the parts of a computer system?
+Starting from level 0, the computer system goes: Digital Logic, Control, Machine, System
+Software, Assembly Language, High-Level Language, user.
+
+3. What is the difference between a compiled language and an intepreted language?
+The difference lies in how they are excecuted: Compiled languages use a compiler to
+translate the code into machine code. The compiler spits out a executable 
+file which can be run. 
+
+Interpreted languages translate the code into machine language
+during runtime by envoking machine code through the interpreter to execute an argument
+thus not needing a separate file or compiler.
+https://dev.to/gridou/interpreted-vs-compiled-languages-understanding-the-difference-4ak8
+
+4. Is "C" a compiled language?
+Yes
+
+5. Who invented the "C" language?
+The "C" language was created by Dennis M. Ritchie at Bell Laboratories.
+https://www.britannica.com/technology/C-computer-programming-language
+
+6. How long has "C" been in use?
+Since the 1970s.
+
+7. Is a compiler a translator?
+Yes
+
+8. Is an assembler a translator?
+No
+
+9. What is the command to list out the contents of a directory on a mac terminal window?
+ls
+
+10. What does the "C" function atof() do?
+Turns a string (ASCII) to a float.
+
+11. What are the bottom two layers of a computer system? Give a brief desciption of each.
+The bottom two layers are the Digital Logic and Control. Digital Logic: This is the
+hardware of the computer i.g. transistors, gates, circutry, motherboards, daughterboards,
+chips, etc. Control: The layer above which is the microcode that the hardware uses as well
+as the hardwire circutry.
+
+12. What are the three "steps" of the Von Neumann Architecture?
+12.1. The control unit uses the instruction's address (kept in the Program Center section of 
+the registers) to fetch the next programs's instructions from the main memory.
+
+12.2. The intructions are then decoded so the CPU's microcode can untilize it properly.
+Sometimes additional fetches to the memory (then stored in the register) are required to
+decode the instructions.
+
+12.3. The decoded instructions are then executed by the Arithmetic Logic Unit (ALU) and,
+depending on the action, results in either a section of the register being updated or the
+main memory is updated.
+
+13. What is the purpose of an ALU?
+To execute decoded instructions (integers) and provide a result to either one of CPU's register or
+the main memory.
+
+14. What is a "register"?
+CPU registers are similar to main memory but faster and reserved for values most commonly used in
+ALU processing. Caches are also used in tandem to store commonly used values but they are slower 
+than registers. Some registers are used for general purposes and some are used for specific tasks.
+The Accumulator register is the most used register since it is the register the main memory sends
+data to. Memory Address Registers (MAR) store common address locations in memory. Program Counter
+(PC) is a register used to track the execution of a program as well as fetch subsequent instructions.
+https://www.geeksforgeeks.org/computer-organization-architecture/different-classes-of-cpu-registers/
+
+15. What is one difference between "Application software" and "System software"?
+Application software is for users to interact with. System software is for
+the computer to acssess and use.
+
+16. Is the phrase cmp rdi, rsi machine language?
+No, that phrase is assembly code converted from a "C" argument in which the first argument located at
+the rdi register in the CPU is compared (cmp) by subtraction to the second argument at the rsi
+register.
+
+Machine code is made up of hexadecimal and binary code. The assembly code would need to be translated
+by an assembler to be used by the CPU interpreter.
+http://6.s081.scripts.mit.edu/sp18/x86-64-architecture-guide.html
+
+17. How many buses are included in the system bus?
+There are 3 busses: the Data Bus, the Address Bus, and the Control Bus.
+
+18. What is the decimal value of 100101112?
+0101 1111 0111 0110 1011 1111 1000
+
+19. What is the decimal value of 111111112?
+0110 1001 1111 0110 1011 1100 1000
+
+20. What is the largest unsigned integer value that will fit into 16 bits? 
+1111 1111 1111 1111 = 65,535
