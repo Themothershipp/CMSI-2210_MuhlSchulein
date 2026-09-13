@@ -1,0 +1,43 @@
+
+
+Evaluation Criteria ~ homework01
+CMSI 2210 Section 01 Fall 2023
+=================================
+
+SAYHELLO.C
+   file exists          1/1 pt.
+   file compiles        1/1 pt.
+   program runs         1/1 pt.
+   prompts user         1/1 pt.
+   reads input          1/1 pt.
+   displays hello name  1/1 pt.
+SAYHELLO.ASM
+   file exists          1/1 pt.
+   file assembles       1/1 pt.
+   programruns          1/1 pt.
+GENERAL
+   code style           1/1 pt.
+
+Total possible points 10
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 10/10 which is 100% which is an A-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Nice work here, looks like everything is working for you.
+
+One thing to consider is, when you ask the user for input you should handle
+   the situation in which the user simply presses 'enter' without providing
+   any input.  In this case you can either prompt them again for the input,
+   or provide a default behavier to handle the situation.  I will demonstrate
+   this during class next Tuesday.
+
+GOOD FOR YOU for looking up how to handle PIE compatibility for Linux!  That
+   shows your initiative and I applaud that!  Doing that little extra is a
+   very important trait to foster in yourselves.  NICE!
+
+Off to a great start!
