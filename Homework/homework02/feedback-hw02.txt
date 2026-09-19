@@ -1,0 +1,58 @@
+
+Evaluation Criteria ~ homework02
+CMSI 2210 Section 01 Fall 2026
+=================================
+
+BOOK PROBLEMS
+   Question 01    1/1 pt.
+   Question 02  0.5/1 pt.
+   Question 03    1/1 pt.
+   Question 04    1/1 pt.
+   Question 05    1/1 pt.
+   Question 06    1/1 pt.
+   Question 07    1/1 pt.
+   Question 08    1/1 pt.
+   Question 09    1/1 pt.
+   Question 10    1/1 pt.
+   Question 11    1/1 pt.
+   Question 12    1/1 pt.
+   Question 13    1/1 pt.
+   Question 14    1/1 pt.
+   Question 15    1/1 pt.
+   Question 16    1/1 pt.
+   Question 17    1/1 pt.
+   Question 18    0/1 pt.
+   Question 19    0/1 pt.
+   Question 20    1/1 pt.
+
+Total possible points 20
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 17.5/20 which is 87.5% which is a B-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+problem  2 Partially Correct
+   You list the computer system layers rather than examples of computer
+      system parts (CPU, RAM, disk, keyboard, etc.) requested by the
+      solution.
+problem  5 Partially Correct, full credit earned
+   You name Dennis Ritchie only; he was helped by Brian Kernighan.
+problem  8 Incorrect
+   An assembler is a translator; it translates assembly language into
+   machine code.
+problem 18 Incorrect
+   The question asks for the decimal value of 10010111; the response is
+   another string of binary digits, not the correct decimal value (151).
+   The "2" at the end that is below the line is a 'subscript' which is
+   indicating to you that the problem's stated value is in base-2.
+problem 19 Incorrect
+   The question asks for the decimal value of 11111111; the response is
+   another string of binary digits, not the correct decimal value (255).
+   The "2" at the end that is below the line is a 'subscript' which is
+   indicating to you that the problem's stated value is in base-2.
+
+Otherwise, nice job!
