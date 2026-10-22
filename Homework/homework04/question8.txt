@@ -1,0 +1,10 @@
+        JMP     start
+acc:    0
+mem:    0
+start:  STORE   acc     ;assuming accumulator is pre-loaded
+        READ    0x30AA
+        STORE   mem
+        LOAD    [acc]
+        WRITE   0x30AA
+        LOAD    [mem]
+end:    JMP     end

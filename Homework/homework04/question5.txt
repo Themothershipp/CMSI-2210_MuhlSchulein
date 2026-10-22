@@ -1,0 +1,11 @@
+        JMP     start
+val:    0
+max:    256
+start:  LOAD    [val]
+        WRITE   0x8
+        ADD     1
+        STORE   val
+        SUB     [max]
+        JLZ     start
+end:    JMP     end
+        

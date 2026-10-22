@@ -1,0 +1,21 @@
+        JMP     start
+a:      0
+b:      0
+r:      0
+start:  READ    0x100
+        STORE   a
+        READ    0x100
+        STORE   b
+loop:   LOAD    [a]
+        MOD     [b]
+        STORE   r
+        LOAD    [b]
+        STORE   a
+        LOAD    [r]
+        STORE   b
+        JLZ     loop
+        JGZ     loop
+        LOAD    [a]
+        WRITE   0x200
+end:    JMP     end
+; based on Euclid's GCD

@@ -1,0 +1,10 @@
+0   C0000003        JMP     start
+1   00000000        val:    0
+2   00000100        max:    256
+3   00000001        start:  LOAD    [val]
+4   30000008                WRITE   0x8
+5   40000001                ADD     1
+6   10000001                STORE   val
+7   50000002                SUB     [max]
+8   E0000004                JLZ     start
+9   C0000009        end:    JMP     end
