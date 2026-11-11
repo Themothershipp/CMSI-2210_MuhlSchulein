@@ -4,8 +4,8 @@
 
 <ol>
     <li>Check <a href="./dec2bin.c">dec2bin.c</a> file in repo</li>
+    <li>Check <a href="./dec2hex.c">dec2bin.c</a> file in repo</li>
     <li></li>
-    <li></li>
-    <li></li>
+    <li>Check <a href="./holdit.c">dec2bin.c</a> file in repo</li>
     <li></li>
 </ol>
