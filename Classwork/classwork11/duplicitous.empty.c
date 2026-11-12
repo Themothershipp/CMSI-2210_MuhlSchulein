@@ -103,10 +103,8 @@ int main( int argc, char * argv[] ) {
 	FILE *output = fopen( "outputfile.txt", "w");
    if (NULL == output) {
 		printf("Output file at Output.txt");
-   } else {
-	   printf("Output file error");
-		exit(0);
-   }
+        exit(0);
+   } 
 
   /*
    * read that many lines from the input file and
