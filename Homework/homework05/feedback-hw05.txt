@@ -1,0 +1,54 @@
+
+
+Evaluation Criteria ~ homework05
+CMSI 2210 Section 02 Fall 2026
+=================================
+
+dec2bin
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+dec2hex
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   32-bit tests   [ 5 pts.]      5 points earned
+   64-bit tests   [ 5 pts.]      5 points earned
+timesTables
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+holdit
+   compiles       [ 5 pts.]      5 points earned
+   runs tests     [15 pts.]     15 points earned
+wordcount
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs tests     [10 pts.]     10 points earned
+
+ Total possible ~ 100 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 100/100 which is 100.00% which is an A-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+For wordcount, if you count the three returns for blank lines, that gives
+three more characters, so a word count of 397 is acceptable.
+
+
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  87.50% of  5 points =  4.38 points
+   homework03 ~  91.67% of  5 points =  4.58 points
+   homework04 ~  91.00% of  5 points =  4.55 points
+   homework05 ~ 100.00% of 10 points = 10.00 points
+                                total: 28.51 out of 30.00 = 95.03%
+                                which is an A
+
+Your code looks VERY nice, your group obviously cares about the craft....
